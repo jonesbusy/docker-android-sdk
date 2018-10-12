@@ -1,7 +1,5 @@
 FROM gradle:4.10.2-jdk8-slim
 
-LABEL maintainer="CHDSUDEVOPSTeam@internal.nestle.com" ImageName="nestle/dsudevops/android-sdk" Version="latest"
-
 # Build arg
 ARG android_sdk_version=4333796
 ARG download_server=https://dl.google.com/android/repository
