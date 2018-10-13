@@ -8,7 +8,6 @@ ENV ANDROID_SDK_VERSION ${android_sdk_version}
 # Prepare environment
 USER root
 RUN mkdir -p /opt/android-sdk && chown -R gradle:gradle /opt/android-sdk
-USER gradle
 WORKDIR /opt/android-sdk
 
 # Install android sdk
